@@ -16,7 +16,7 @@ def prompt_builder(user_input: str) -> str:
 
     """Load System prompt from YAML and build messages for the agent."""
 
-    prompt_file = "/home/vaibhav/Study/agentic-ai/agentic-ai-bootcamp/assigments/week2/agentic-day3-production/prompts/support_agent_v1.yaml"
+    prompt_file = "../prompts/support_agent_v1.yaml"
 
     with open(prompt_file, "r", encoding="utf-8") as f:
         prompt = yaml.safe_load(f) 
