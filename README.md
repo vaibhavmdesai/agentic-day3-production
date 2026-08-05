@@ -4,7 +4,7 @@
 
 ### Do not commit .env file.
 
-To run the day 1 assignment, execute:
+To run the day 3 assignment, execute:
 
 ```bash
 python app.py
