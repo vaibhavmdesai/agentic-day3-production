@@ -1,5 +1,5 @@
-from test_production_invoke import production_invoke, InvocationResult, ErrorCategory
-from test_circuit_breaker import CircuitBreaker
+from prod_invoke import production_invoke, InvocationResult, ErrorCategory
+from circuit_breaker import CircuitBreaker
 
 breaker = CircuitBreaker()
 
