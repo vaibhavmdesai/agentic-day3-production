@@ -1,8 +1,8 @@
 import re
 from dotenv import load_dotenv
 from llm import llm
-from test_cost_tracking import SessionCostTracker
-from test_injection_defense import detect_injection
+from cost_tracking import SessionCostTracker
+from injection_defense import detect_injection
 from budget_invoke import budget_aware_invoke
 
 load_dotenv()
